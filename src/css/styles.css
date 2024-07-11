@@ -48,3 +48,46 @@
 .gallery-item:hover {
   transform: scale(1.05);
 }
+
+.go-back-link {
+  padding: 16px 24px;
+  background-color: violet;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.go-back-link:hover {
+  background-color: darkorchid;
+}
+
+.main-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  flex-direction: column;
+  padding-top: 170px;
+}
+
+.main-list-link {
+  padding: 16px 24px;
+  background-color: violet;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-list-link:hover {
+  background-color: darkorchid;
+}
