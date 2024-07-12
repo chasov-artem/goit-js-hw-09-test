@@ -25,7 +25,7 @@ function handleInput(event) {
 function handleSubmit(event) {
   event.preventDefault();
 
-  if (!formData.email || !formData.message) {
+  if (!formData.email.trim() || !formData.message.trim()) {
     alert('Fill please all fields');
     return;
   }
